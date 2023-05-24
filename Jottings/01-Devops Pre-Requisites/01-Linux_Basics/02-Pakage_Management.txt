@@ -1,0 +1,14 @@
+#- Pakage Management:
+
+What is full form of RPM in linux environment		-- Red Hat Pakage Manager
+
+rpm -q openssh-server python3 ansible telnet		-- here the -q is the query, it shows all list we provide..
+							   ..if any pakage not installed then it does not shows up
+
+sudo yum install -y ansible				-- to install ansible on centos
+
+sudo yum list ansible					-- shows version of ansible
+
+sudo yum remove -y ansible				-- remove ansible from using yum
+
+sudo yum install -y ansible-2.8.11			-- installing ansible with specific version
