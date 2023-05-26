@@ -1,0 +1,15 @@
+#- Services :
+
+sudo systemctl status httpd				-- used to check status of the service -> "httpd".
+
+sudo systemctl start httpd				-- used to start the service -> "httpd".
+
+sudo systemctl stop httpd				-- used to stop the active/running service -> "httpd"
+
+sudo systemctl enable httpd				-- used to automatically start service when the system boots up.
+
+sudo sytstemctl disable httpd				-- used to disable the automatic start of "httpd" when bootup
+
+systemctl status app					-- used to check the status of -> file/service ie., "app".
+
+systemctl cat app.service				-- used to see which services are curently are running.
