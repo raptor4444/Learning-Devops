@@ -1,0 +1,33 @@
+#- Netwroking basics: { Switching & Routing }
+
+
+
+Q) What is route?
+
+	-- command used to display the kernel ip routing table.
+
+	-- We can assign multiple IP to a system
+							
+	-- Router is a preferred device to connect two system which are on different networks?
+					
+	-- Gateway connect a system to the internet.
+
+
+
+# Adding IP address at different app(applications) using jumphost:
+
+
+	- For lab: when we switch to app01 in KodeKloud Lab:
+
+		sudo ip addr add 172.16.238.15/24 dev eth0		-- used to assign ip address {here assigned to app02}
+
+
+	- For lab: when we switch to app02 in KodeKloud Lab:
+		
+		sudo ip addr add 172.16.238.16/24 dev eth0		-- used to assign ip address {here assigned to app02}	
+	
+
+	- To exit app use "exit" or "login".
+
+
+	- NOTE : Jumphost can be only be used for the devices that are currently on the same network.
