@@ -1,0 +1,94 @@
+# Java is mostly used for the development of mobile and web applications.
+# It is free and open souce and have a huge commmunity.
+
+# Versions:
+
+	- till 8th version : the successor version were named as 1.1, 1.2, ... , 1.7, 1.8
+	- for 9th version and above : the naming for versions were 9, 10, 11, ... , 13, ... 
+	- To check which version: use "java -version" command on terminal
+
+	- Also before version 9 the JDK and JRE were seperately installed.
+	- By version 9th onwards JDK and JRE are pakaged together.
+
+
+# what is JDK:
+
+	- It is java development kit.
+
+	- It helps to develop, build and run java applications on systems.
+
+
+- JDK (Java Development Kit) :
+	
+	- Develop	:	jdb, javadoc 
+	- Build		:	javac, jar
+	- RUN		:	JRE, java
+
+
+- These "Tools" are "commands" that are present in the bin directory for when java is installed.
+
+- Tools Explained:
+
+	- For debugging we use java debug tool (jdb).
+
+	- For documenting application we use java doc tool (javadoc).
+
+	- Once the application is developed, to build and compile it we use (javac) tool.
+
+	- Java Archive (jar) tools help to archive, compress & combine multiple java.class files, dependent lib & assets into a single distributed pakage.
+
+	- Now to run the java file we use (JRE) ie., Java Runtime Enviroment. Also that is the only component need to run built java application.
+	
+	- Also you need java command line utility or the loader to run the application.
+
+
+# How the java code is executed?
+
+	- Firstly the human readable souce code is converted to byte code manually using "javac" command.
+
+	- Now using JVM (Java Virtual Machine) -- we convert the byte code to machine redable code.
+
+	- Converting to byte code builds a comman file to be shared and run on different enviroments, where supported JVM is available.
+
+	- Hence make Java a cross-platform.
+
+
+# Jar File :
+	
+	- We use jar cf <file-name> : to jar a file
+	- When the above command is used it automatically generates manifest file within the pakage at path /META-INF/MANIFEST.MF
+	- This manifest files contains the information about the files contained in the jar file and any other metadata of application.
+	- To Run jar file use : java -jar App.jar
+
+
+# Tools For JAVA :
+
+	- Maven
+	- Gradel
+	- ANT
+
+	- with the above tools we can specify the steps you want the build tool to automate.
+	- and these build tools automatically execute in the order defined.
+
+
+# Generate documentation for the {MyClass.java} source code into the {/opt/app/doc directory}
+	
+	- cd /opt/app/; javadoc -d doc MyClass.java
+
+# Generate documentation for the {MyClass.java} :
+	
+	- javadoc -d doc MyClass.java
+
+
+cd /opt/maven/my-app/; tree				-- used to explore the directory structure for the application.
+
+sudo mvn package						-- used to compile and pakage application.
+	
+
+
+
+
+
+
+
+
