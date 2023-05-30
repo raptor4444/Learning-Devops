@@ -1,0 +1,25 @@
+Q) What is DNS is used for 					
+
+    -- To resolve ip of domain name.
+
+
+
+# Useful commands:
+
+
+cat /etc/hosts						-- in linux to point hostnames/domains to ip. - also contains info about server.
+
+sudo vi /etc/hosts					-- opens vi editor for "/etc/hosts" file.
+
+nslookup						-- used to query a hostname from a DNS server
+
+
+Q) what is /etc/resolv.conf ?
+
+	It is a text file commonly found on Unix-like operating systems, including Linux. It stores the 							configuration for the Domain Name System (DNS) resolver on the system. 
+	   
+	The DNS resolver is responsible for converting human-readable domain names (e.g., example.com) into their 						corresponding IP addresses (e.g., 192.0.2.1).
+
+   	When an application or a process on the system needs to resolve a domain name, it consults the 							   	information in /etc/resolv.conf to determine which DNS servers to query.
+
+	If you need to make changes to the DNS configuration on your system, it's often better to use the 							appropriate network configuration tools provided by your Linux distribution (e.g., NetworkManager 							on Ubuntu, nmcli on CentOS) rather than editing /etc/resolv.conf directly, as your changes may be 							overwritten by the system.
