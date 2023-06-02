@@ -1,0 +1,47 @@
+# NodeJS
+
+- Nodejs supports large number of pakage/libraries that are developed by either the core team or contributed by community.
+
+
+# NPM (Node Pakage Manager):
+
+- These could be the pakages for working with files, web servers, databases, security, and many more.
+
+- And all of it are available on public repository at npmjs.com.
+
+- When nodejs is installed then a command line utility is also installed ie., (npm).
+
+- npm helps to interact with npm respository.
+
+- use ( npm -v ) to print the version of nodejs intalled.
+
+- ( npm search file ) to search a pakage in repository. It consists of name, author, version, description.
+
+- Once the pakage is to be installed then install it using <npm install filename>.
+
+- The installed pakages are stored in the library (lib) folder under node_modules folder.
+
+- The node_module folder also consist of a folder named "file" which further consist of pakage.json file.
+
+- The pakage.jason file consists of the metadata of the pakagae. MetaData consist of name, author, version , git repo, etc..
+
+- All the above commands were used to install pakages to a directory we need the pakage be working on. 
+
+- If we want to install the nodejs pakage globally we use "-g" : example -> ( npm install file -g )
+
+- To clone node applications from github use ( git clone "githublink" ).
+
+
+# Modules :
+
+- Are of two types:
+	
+	- Internal Module : Here the modules are installed automatically when the nodejs in installed for the first time.
+				Ex -> fs (handle file system), HTTP (host an http server), OS (work with operating system)
+	
+	- External Module : The modules are manually installed as per need.
+				Ex -> Express (develop web applications), react (Front-end interface), Debug (debug applications)
+
+
+
+
