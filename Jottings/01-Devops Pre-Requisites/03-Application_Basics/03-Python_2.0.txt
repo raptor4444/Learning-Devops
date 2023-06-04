@@ -1,0 +1,21 @@
+This is how you change port no. for app.py :-  sudo sed -i 's/8080/5000/g' app.py
+
+To run the app use :-	python app.py
+
+
+various tools used to deploy flask in production :
+
+	- Gunicorn
+	- Gevent
+	- Twisted Web
+	- uWSGI
+
+
+# to directly print dependicies for a node :
+
+- use {jq .dependencies <path of json>} : jq .dependencies /opt/the-example-app.nodejs/package.json
+
+
+# to directly print scripts :	
+
+- use {jq .scripts <path of json>}
