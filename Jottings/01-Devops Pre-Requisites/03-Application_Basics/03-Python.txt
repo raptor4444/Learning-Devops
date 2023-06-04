@@ -1,0 +1,103 @@
+# Python :
+
+- It is a free open source cross platform comaptible programming language.
+- Has soo many features that helped to support modern tech such as machine learning, data science, and AI.
+
+# Versions :
+
+- Python 2 (2000-2010)
+	
+	- Released in 2000.
+	- Development ended in 2010.
+
+- Python 3 (2008-present)
+
+	- Initially released in 2008 and is continued to be developed today.
+	- Also Python 3 does not gurantee the backward compatibility with python 2 applicatons.
+
+- Note: Applications made on Python 2 should be run on Python 2 Interpreter and same for python 3.
+
+- To install python3.6 - use < sudo yum install python36 > (dont use decimal for python version).
+
+- We can install both versions of python on the same host.
+
+
+
+# Running python files:
+
+- use version with the file name:
+
+	- <python2 filename>
+	- <python3 filename>
+
+
+
+
+# Python Pakage Manager {PIP} :
+
+
+- When we install python we it also installs PIP automatically.
+
+- use <pip1 -v> and <pip2 -v> to see PIP pointing to which version of python.
+
+- To install a pakage using pip : <pip install package>
+
+- Seperate packages are installed in sperate folders for different versions.
+
+- Packages are 32 bit and 64 bit. Ex: if 64 bit then it has sepeate path for 64 bit packages.
+
+- To know where the package is installed or any other info, use : <pip show pakage>
+
+- For installing multiple pakage file :
+	
+	- To install multiple packages we can use : <pip install package1 package2 package3>
+	
+	- Or we can we a efficient method :
+
+		- Create a package.txt using file write required packages name.
+
+			{ package1==version
+			  package2==version
+			  package3==version		
+			}
+
+		- Note: The brackets above are just for the mentions, need not to be included.
+	
+		- Now to install the packages, use : <pip install -r package.txt>
+	
+		- If the version is not mentioned above this will allow python to install the latest stable version of package
+		  and it might not be compatible with the version on which the python application was built. Hence, may break.
+	
+	- To uninstall the package, use : < pip uninstall package >
+	
+	- To know which pakages are not installed in following : <pip show package1 package2 package3 package4>
+
+	- To install the upgraded version of already installed package: <pip install package --upgrade>
+
+
+# Other Package Managers:
+
+
+1) easy_install :
+
+	- This was the original way of installing of python packages.
+	- Here a set of tools are used to package Python code into zipped format called eggs (Ex - app.egg).
+	- Egg file is similar to jars in java to package it into a single file.
+	- this .egg file can be installed using : (easy_install install app).
+	- The .egg file doesn't require to be unpackaged. It can be directly be used.
+
+2) wheels :
+
+	- have an extension : file.whl
+	- similar to .egg files which are also zip files. 
+	- But the difference is that it need to be unpacked before installing.
+
+
+
+
+
+
+
+
+
+
