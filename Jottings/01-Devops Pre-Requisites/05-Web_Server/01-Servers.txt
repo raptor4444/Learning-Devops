@@ -1,0 +1,32 @@
+Q) What is a server?
+
+	- A computer that stores information that a number of computers can share.
+	- All these servers have programs that listens for requests at a partiular port, Ex-> port 3000, port 8080, etc..
+	- These programs are the only thing that makes them servers, else they will be just a virtual/physical machine with OS.
+
+	- Types:
+	
+		- Chat/Web servers: 
+		
+				- It is the underlying hardware that accepts requests via HTTP or its secure variant HTTPS.
+				- It serves web clients.
+
+		- Application Servers:
+			
+				- It runs application logic.
+				- Ex -> Retrieving and updating databases
+					Executing Bussiness logic like performing operation/computation of some kind.
+
+		- DataBase Servers:
+
+				- Servers using database application that provide database service to other computers.
+				- Ex -> MySQL, MongoDB, etc..
+		
+		//rly:-
+
+		- Email Servers:
+		- Backup Servers:
+		- File Transfer Protocol Server:
+
+
+
