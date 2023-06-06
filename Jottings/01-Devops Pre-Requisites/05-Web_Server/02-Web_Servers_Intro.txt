@@ -1,0 +1,24 @@
+# Web Framework:
+
+	- It helps in developing web application code.
+
+
+# Web Server:
+
+	- It is used to host the application made above.
+
+	- It can host multiple applications at the same time, 
+	  so that they can redirect requests based on the url/host name/path to different applications.
+	
+	- Types of servers that can host web application:
+
+		- Good static web servers: that serves static content.
+
+			- NGINX (port: 80)
+			- Apache Web Server / Apache HTTP Server
+	
+		- Good dynamic/Application servers: that serves dynamic web content.
+	
+			- Apache Tomcat (port:8080)
+			- uWSGI
+			- Gunicorn (port: 8000)
