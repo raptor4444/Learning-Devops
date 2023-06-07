@@ -1,0 +1,7 @@
+Apache pakage name in httpd.
+
+to install apache: sudo yum install -y httpd
+
+to run the service : sudo service httpd start
+
+to check the apache pakage(httpd) status : sudo service httpd status
