@@ -1,0 +1,8 @@
+# Apache Web Server Enviroment :
+
+	- It is a web server enviroment where we can host java based applications.
+	- It is capable to hosting multiple java web applications.
+
+For java :
+
+	- JAR files allow us to package multiple files in order to use it as a library, plugin, or any kind of application. On the other hand, WAR files are 		used only for web applications.
