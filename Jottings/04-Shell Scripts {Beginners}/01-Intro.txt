@@ -1,0 +1,49 @@
+{ we are building a rocket project for learning Scripts }
+
+# everything is same for script commands like linux:
+
+- The command used below should be used in the home directory or the provided:
+
+
+## Example for the commands being used in the scripts are: {Dummy Project} ##
+
+
+- rocket-ls : gives number of projects for rocket
+
+- rocket-add lunar-mission : Project lunar is added in rocket
+
+- rocket-start-power lunar-mission : To start the {Auxillary Power} project.	
+
+- rocket-internal-power lunar-mission : To start the {internal power} of the rocket.
+
+- rocket-start-sequence lunar-mission : To initiate the auto-sequence of rocket.
+
+- rocket-start-engine lunar-mission : To start the main engine of the rocket.
+
+- rocket-lift-off lunar-mission : Final stage to lift off the rocket.
+
+- rocket-status lunar-mission : To check the status of the launch.
+
+
+
+## Now we create another rocket mission ##
+
+
+- mkdir mars-mission : creates new folder for the new mission named "mars-mission"
+
+- rocket-add mars-mission : created a new rocket for the mission mars-mission
+
+- rocket-start-power mars-mission : starts the {auxillary power} of the rocket.
+
+- rocket-internal-power mars-mission : starts the internal power of rocket.
+
+- rocket-start-sequence mars-mission : starts the sequence of the rocket.
+
+- rocket-start-engine mars-mission : starts the rocket engine.
+
+- rocket-lift-off mars-mission : launches the engine.
+	
+- rocket-status mars-mission : testing the status of the rocket launch.
+
+- rocket-ls : shows the numer of rockets successfully launched or made .
+
