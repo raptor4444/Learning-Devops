@@ -1,0 +1,76 @@
+The previous example of launching rocket project was executed using similar commands,
+
+Hence the shell scripts helps to group these common commands together into an executable file
+with an extension of { .sh }. 
+
+
+- This helps in automating the execution of manual tasks.
+
+- The .sh file runs each command mentioned in the executable file sequentially.
+
+- Even if any command is taking longer time for execution it'll first complete the execution 
+  before moving ahead.
+
+- To list the location of the script : which rocket-launch
+
+
+
+
+# { Commands to make a script file with commands in it } #
+
+- touch create-and-launch-rocket.sh : This creates the .sh file.
+
+- use vi editor to insert commands in the file.
+
+- chmod +x create-and-launch-rocket : this assigns the execute permission for the .sh file mentioned.
+
+- bash create-and-launch-rocket : used to run the script command
+
+
+
+
+
+
+
+Manual approach : {Lab}
+
+
+mkdir /home/bob/countries
+cd countries
+
+mkdir USA
+touch capital.txt
+echo "Washington, D.C" >> capital.txt
+
+cd ..
+mkdir UK
+touch capital.txt
+echo "London" >> capital.txt
+
+cd ..
+mkdir India
+touch capital.txt
+echo "New Delhi" >> capital.txt
+
+uptime
+
+
+
+Optimised Approach :
+
+
+vi create-directory-structure-v2.sh
+
+mkdir countries
+
+mkdir -p countries/USA countries/India countries/UK
+
+echo "Washington, D.C" > countries/USA/capital.txt
+echo "London" > countries/UK/capital.txt
+echo "New Delhi" > countries/India/capital.txt
+
+uptime
+
+
+
+
