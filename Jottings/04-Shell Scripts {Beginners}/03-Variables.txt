@@ -1,0 +1,38 @@
+#- VARIABLES -#
+
+
+	- Variables are in general used for preventing the repetetion of a constant value.
+
+	- It helps in the easy manipulation of data, which further gives the flexiblity in scaling the product that is being made.
+	
+	- In Scripting we use variables for the same purpose for not repeating the code.
+
+	- In this the variable name should contain only alphanumeric and underscores.
+		 "mission_name {acceptable}" while "mission-name {is not}"
+
+	- Here the name is also case sensitive, ie,
+		MISSION_NAME != mission_name
+
+	- Best Practice for naming variables :
+		- use lower case only.
+		- underscore to seperate words.
+
+
+
+# {EXAMPLE:}
+
+
+
+mission_name = mars-mission		{Here we are creating a variable for the mission}
+
+mkdir $mission_name
+
+rocket add $mission_name
+
+rocket-start-power $mission_name
+
+rocket-start-engine $mission-name
+
+roccket-lift-off $mission-name
+
+rocket-status $mission-name
