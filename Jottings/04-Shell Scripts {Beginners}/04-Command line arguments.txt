@@ -1,0 +1,22 @@
+- The commands have numbering as built in variables.
+
+- example : {This Code is written in command prompt}
+
+create-and-launch-rocket saturn-mission
+------------------------ --------------
+	    |			|
+	   $0			$1
+
+
+- The indexing starts with 0 and increase with every further commands.
+
+- These are the numbers that holds the commands that can be futher be used in script code.
+
+
+#- Best Practice -#
+
+	- Design script to be re-usable.
+	- Script should not require to be edited before running.
+	- Use command line arguments to pass inputs.
+
+
