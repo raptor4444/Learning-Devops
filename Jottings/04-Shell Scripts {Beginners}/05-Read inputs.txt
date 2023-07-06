@@ -1,0 +1,19 @@
+- using command create-and-launch-rocket :
+
+	- we want the user to type the mission name.
+
+
+- This is done by specifying the read command in script file :
+
+	- The command is :
+
+		read -p "Enter Mission name: " mission_name
+
+
+- This above command reads the input given by user and assigns the value to mission_name (variable).
+
+- This variable is further used in rest of scripts.
+
+- This process requires manual intervention by the user for the script to be executed and hence should be used accordingly.
+
+- The scripts should be developed such that it does not require any manual intervention unless absolutely necessary.
