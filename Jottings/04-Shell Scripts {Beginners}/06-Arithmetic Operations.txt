@@ -1,0 +1,65 @@
+#- using "expr" -#
+
+
+	- using expr helps in arithmetic operations in the bash terminal.
+	- Examples of how it can be used :
+
+		- expr 6 + 3	{outputs - 9}
+	
+		- expr 6 - 3	{outputs - 3}
+
+		- expr 6 / 3	{outputs - 2}
+
+		- expr 6 \* 3	{outputs - 18}
+
+
+	- The above operations can also be done by using variables.
+	
+		Example : expr $A + $B
+
+	- Note that the spaces above is to be strictly be used for execution.
+
+
+#- double parentheses -#
+
+	
+	- Here the execution takes place just like in C.
+
+	- The spaces are no longer needeed.
+
+	- Dollar ($) sign is not used individually with the variables.
+
+	- Example :
+
+		- echo $((A+B))		{Outputs - sum}
+		- echo $( (A - B) )	{Outputs - difference}
+		- echo $((A/B))		{Outputs - quotient}
+		- echo $((A * B))	{Outputs - product}	- No need for the back-slash(\).
+
+
+	- Also we can use C styled manipulations on variables.
+	- Example:
+
+		- echo $((A++))
+		- echo $((--A))
+		- echo $((++A))
+		- echo $((A--))
+
+
+
+## NOTE : "expr" and "double parentheses" only return decimal output and does not support floating-point numbers.
+
+# For the float values we use "bc utility" - this works as a basic calculator in Linux.
+
+	- echo $A / $B | bc-l
+
+		- here bc is the utility that is a default basic calculator in linux.
+		- Note that "-l" should be always be used for the desired result.
+
+
+
+
+
+# Note: If you are using command line variables directly within the expression $(( )) then you must use $1 and $2 and not just 1 and 2.
+	- eg: $(( $1 + $2 ))
+
