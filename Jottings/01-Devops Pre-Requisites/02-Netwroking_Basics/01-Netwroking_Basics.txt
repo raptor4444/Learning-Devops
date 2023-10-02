@@ -8,7 +8,7 @@ Q) What is route?
 
 	-- We can assign multiple IP to a system
 							
-	-- Router is a preferred device to connect two system which are on different networks?
+	-- Router is a preferred device to connect two system which are on different networks.
 					
 	-- Gateway connect a system to the internet.
 
